@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header><h1>CHATBOT</h1></header>
+  <div id="inputbox">
+      <input type="text" id="username" placeholder="USER NAME">
+      <input type="password" id="pswd" placeholder="PASSWORD">
+      <button id="start" type="submit">START</button>
+  </div>
+  <ul id="listmsg"></ul>
+  <div id="chatbox">
+       <input type="text" placeholder="SEND TO" id="touser">
+      <input type="text" placeholder="ENTER MESSAGE" id="msg">
+      <button type="submit" id="send">SEND</button>
+  </div>
+  <!-- <ul id="listmsg"></ul>
+  <footer>
+    <input type="text" id="inputmsg" width="90rem">
+    <button id="btn" type="submit">SEND</button>
+  </footer> -->
+</body>
+</html>
